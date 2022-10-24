@@ -1,0 +1,42 @@
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.posts {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
+}
+
+.post {
+    padding: 10px;
+}
+
+.post_title, .comment_author {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.post_title::first-letter {
+    text-transform: uppercase;
+}
+
+.post_content::first-letter {
+    text-transform: uppercase;
+}
+
+.comment {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.comment_data {
+    display: flex;
+}
+
+.comment_date {
+    color: gray;
+    margin-left: 10px;
+}
+
